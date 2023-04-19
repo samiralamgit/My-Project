@@ -1,0 +1,31 @@
+<div class="container edit p-4">
+    <i class="fa fa-2x fa-times-circle close-icon" style="color: rgb(75, 75, 243);"></i>
+    <div class="row">
+        <div class="col">
+            <form action="/profile" method="post">
+                <div class="mb-1">
+                    <label for="exampleInputPassword1" class="form-label">Name</label>
+                    <input type="text" class="form-control" value="{{userName}}" id="name" name="name">
+                </div>
+                <div class="mb-1">
+                    <label for="exampleInputPassword1" class="form-label">User ID</label>
+                    <input type="text" class="form-control" value="{{userId}}" id="userid" name="userid">
+                </div>
+                <div class="mb-1">
+                    <label for="exampleInputPassword1" class="form-label">Mobile No</label>
+                    <input type="text" class="form-control" value="{{mobileNo}}" id="mobile" name="mobile">
+                </div>
+                <div class="mb-1">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" value="{{emailId}}" id="email1" aria-describedby="emailHelp" name="email">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-1">
+                    <label for="exampleInputPassword1" class="form-label">Course</label>
+                    <input type="text" class="form-control" value="{{course}}" id="course" name="course">
+                </div>
+                <button type="submit" class="btn btn-primary singUped">Update</button>
+            </form>
+        </div>
+    </div>
+</div>

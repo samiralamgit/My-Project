@@ -1,0 +1,34 @@
+ <div class="container logIn1">
+    <i class="fa fa-2x fa-times-circle close-icon" style="color: rgb(75, 75, 243);"></i>
+    <form action="/logIn" method="POST">
+        <div class="row">
+        <div class="col">
+            <h2 style="color: black;">Log In</h2>
+        </div>
+    </div>
+    <div class="row inputBox">
+        <div class="col">
+            <input type="text" required name="email">
+            <span>User ID</span>
+        </div>
+    </div>
+    <div class="row inputBox mt-2">
+        <div class="col">
+            <input type="password" required name="password">
+            <span>Password</span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <a href="#" class="forget">forget password</a>
+        </div>
+    </div>
+    {{!-- <input type="submit" value="logIn" class="inputBtn"> --}}
+    <button type="submit" class="btn btn-primary inputBtn">Log In</button>
+    <div class="row">
+        <div class="col">
+            <span>Don't have account<a href="/singup" class="forget">Register</a></span>
+        </div>
+    </div>
+    </form>
+   </div>
